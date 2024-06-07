@@ -1,0 +1,66 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding: 0;
+
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh ;
+    gap:2rem;
+
+  
+}
+.plan-title{
+    font-weight: 200;
+    font-size: 20px ;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+
+.plan-features{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+
+}
+.plan-price{
+    font-size: 30px;
+}
+.plan-button{
+    background-color:rgb(20, 230, 202);
+    padding: 5px;
+    border-radius: 4px;
+    border-color: black;
+
+}
+@media(max-width:600px){
+    .pricing-container{
+        flex-direction: column;
+        height:100%;
+
+    }
+
+}
